@@ -77,7 +77,7 @@
       }
     ],
     "partners": [{
-      "logo": "src/assets/img/partners/Logo-Controluce-Nero.png"
+      "logo": "../../assets/img/partners/Logo-Controluce-Nero.png"
     }]
   },
 
