@@ -7,7 +7,11 @@ import {
   Route
 } from 'react-router-dom';
 
-import Header from './assets/components/elements/headerComponent/header';
+import Video from './components/elements/video';
+import Header from './components/elements/headerComponent/header';
+
+
+
 function App() {
   return (
     <Router>

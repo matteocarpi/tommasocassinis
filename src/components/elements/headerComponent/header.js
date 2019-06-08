@@ -1,7 +1,7 @@
 import React from 'react';
 
-import '../../../styles/header.scss';
-import NavigationList from '../../../../data/navigation.json';
+import '../../../assets/styles/header.scss';
+import NavigationList from '../../../data/navigation.json';
 
 import NavItem from './navItem';
 

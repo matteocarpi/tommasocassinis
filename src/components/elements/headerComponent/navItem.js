@@ -11,7 +11,7 @@ class NavItem extends React.Component {
 
     const {navItem} = this.props;
     return  <li>
-              <Link to={navItem.link}>{navItem.name}</Link>
+              <Link to={navItem.link} key={navItem.link}>{navItem.name}</Link>
             </li>
   }
 }
