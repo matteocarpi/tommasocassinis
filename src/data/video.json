@@ -7,32 +7,32 @@
     "description": "Taxi Waves è una miniserie che esplora le scene musicali dell’Africa contemporanea seguendo il più iconico tra i mezzi di trasporto pubblici: il taxi. I tre episodi percorrono le strade dell’Africa urbana, raccontando l’ideazione e la maturazione di generi musicali ormai celebri nelle charts globali come l’Afrobeats, l’Afrohouse, l’EDM Africana e la Pandza. Concentrandosi su Lagos, Addis Abeba e Maputo la serie cattura l’essenza di tre culture musicali africane, distanti dalle tendenze occidentali ma allo stesso modo fortemente connesse ad esse.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Subject",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Screenplay",
-        "who": "Tommaso Cassinis e Michè Calandra Achode"
+        "name": "Tommaso Cassinis e Michè Calandra Achode"
       },
 
       {
         "role": "Line Producer",
-        "who": "Leonardo Cini"
+        "name": "Leonardo Cini"
       },
 
       {
         "role": "Sound Recording e Mic",
-        "who": "Francesco Cucchi"
+        "name": "Francesco Cucchi"
       },
 
       {
         "role": "Subtitles",
-        "who": "Andrea Pescini e Monica D'Ovidio"
+        "name": "Andrea Pescini e Monica D'Ovidio"
       }
     ],
     "partners": [{
@@ -63,21 +63,21 @@
     "description": "A selection of my latest works",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Editing",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Color Correction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       }
     ],
     "partners": [{
-      "logo": "/src/assets/img/partners/Logo Controluce-Nero.png"
+      "logo": "src/assets/img/partners/Logo-Controluce-Nero.png"
     }]
   },
 
@@ -90,42 +90,42 @@
     "description": "The official music video for Griffit Vigo’s first solo single ‘DJ’, out now on the Durban based record label Gqom Oh!, in anticipation of his forthcoming album, ‘Gqom is Alive’, expected to drop later this year.",
     "crew": [{
         "role": "Direction & Editing",
-        "who": "Michè Calandra Achode & Tommaso Cassinis"
+        "name": "Michè Calandra Achode & Tommaso Cassinis"
       },
 
       {
         "role": "Art direction & writing",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Executive Production",
-        "who": "Francesco Cucchi x Gqom Oh! records"
+        "name": "Francesco Cucchi x Gqom Oh! records"
       },
 
       {
         "role": "Creative Production",
-        "who": "Crudo Volta"
+        "name": "Crudo Volta"
       },
 
       {
         "role": "Art Direction & Styling",
-        "who": "Mike Calandra Achode"
+        "name": "Mike Calandra Achode"
       },
 
       {
         "role": "DOP",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Production & Styling Assistant",
-        "who": "Ludo Guerrieri & Jenn Ayebaitari Ese"
+        "name": "Ludo Guerrieri & Jenn Ayebaitari Ese"
       },
 
       {
         "role": "Dancers",
-        "who": "Thobile and Bryan"
+        "name": "Thobile and Bryan"
       }
     ],
     "partners": [{
@@ -149,28 +149,28 @@
     "description": "In a very entropic scene like the South African house music scene, we have tried to understand how a teenager from Durban could cope in the demanding role of producer and taste-maker. This objective was developed through the narration of the enthusiasm, the fervour, the dedication, the strong sense of identity but also the contradictions, the limits, the technical-divide and many other factors that influence and determine the creative process.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Art direction & writing",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Creative Production",
-        "who": "Crudo Volta"
+        "name": "Crudo Volta"
       },
 
       {
         "role": "DOP",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       }
     ],
-    "special-thanks": [{
+    "specialThanks": [{
       "name": "Gqom Oh!"
     }],
-    "other-info": [{
+    "otherInfo": [{
       "type": "Mixtape Out",
       "label": "gqomoh.bandcamp.com/",
       "link": "https://gqomoh.bandcamp.com/"
@@ -200,22 +200,22 @@
     "description": "L’amore non ha padroni di Antonello Venditti, rielaborata come LANHP da Symo, giovane artista r&b romana di origini eritree ed etiopi.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Art Direction & Writing",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Creative Production",
-        "who": "Crudo Volta"
+        "name": "Crudo Volta"
       },
 
       {
         "role": "DOP",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       }
     ],
     "partners": [{
@@ -243,17 +243,17 @@
     "description": "On November 2015 I followed Crudo Volta Radio around 5 towns of Morocco looking for the most authentic Soul, Jazz, Rock and Folk. The following trailer is a recap of our trip through the wild streets of Maghreb and a preview of the mixtape named Petit Taxi.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Art Direction & Styling",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Creative Production",
-        "who": "Crudo Volta"
+        "name": "Crudo Volta"
       }
     ],
     "partners": [{
@@ -270,36 +270,36 @@
     "description": "Yenkyi Taxi is a documentary that follows the trip of Hagan, a music producer from London of Ghanaian origin to Accra. I n search of the rich zeal of Ghanaian music, Crudo Volta travels from London to Ghana with Hagan to capture the creative authenticity and heritage of contemporary Ghanaian culture and music.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Art Direction & Writing",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Sound Recording",
-        "who": "Eleonora Mazzini"
+        "name": "Eleonora Mazzini"
       },
 
       {
         "role": "Creative Production",
-        "who": "Crudo Volta"
+        "name": "Crudo Volta"
       },
 
       {
         "role": "Art Direction & Styling",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "DOP",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       }
     ],
 
-    "special-thanks": [{
+    "specialThanks": [{
         "name": "Hagan",
         "link": "https://soundcloud.com/haganuk/sets/hagan-yenkyi-ep"
       },
@@ -346,37 +346,37 @@
     "description": "Bob Corn – all’anagrafe Tiziano Sgarbi, per gli amici Tizio – ha composto tutte le sue canzoni disteso a letto, almeno fino alla notte del 20 maggio 2012, quando anche la sua casa – come quella di tanti altri Emiliani – non ha retto al terremoto. Da allora Tizio non ha più scritto canzoni, e quelle vecchie le suona più volentieri qui, nella sua terra, che in giro per il mondo.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis e Giulia Comito"
+        "name": "Tommaso Cassinis e Giulia Comito"
       },
 
       {
         "role": "Editing",
-        "who": "Sandra Petracca"
+        "name": "Sandra Petracca"
       },
 
       {
         "role": "Sound Recording",
-        "who": "Antonio Malzo, Giulio Maresca"
+        "name": "Antonio Malzo, Giulio Maresca"
       },
 
       {
         "role": "Mix Audio",
-        "who": "Michele Gualdrini"
+        "name": "Michele Gualdrini"
       },
 
       {
         "role": "Color Correction",
-        "who": "Vincenzo Marinese"
+        "name": "Vincenzo Marinese"
       },
 
       {
         "role": "Subtitles",
-        "who": "Valentina Napoli"
+        "name": "Valentina Napoli"
       },
 
       {
         "role": "Drone Operator",
-        "who": "Nils Astrologo"
+        "name": "Nils Astrologo"
       }
     ],
     "partners": [{
@@ -394,22 +394,22 @@
     "description": "A recap of a full year passed with Nan Kolè in occasion of the release of his first EP. As always in collaboration with Crudo Volta Radio. <br> <br>'MALMUZ'Featuring < a href = \"https://soundcloud.com/citizenboysa\">Citizen Boy SA</a> & <a href=\"https://soundcloud.com/gqomu/formation-boyz-class-leynkwezeli-gqom-from-ukuvuka-album\">Formation Boyz</a> [ACRE067] Out on Black Acre.",
     "crew": [{
         "role": "Direction",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       },
 
       {
         "role": "Art Direction & Writing",
-        "who": "Michè Calandra Achode"
+        "name": "Michè Calandra Achode"
       },
 
       {
         "role": "Creative Production",
-        "who": "Crudo Volta"
+        "name": "Crudo Volta"
       },
 
       {
         "role": "DOP",
-        "who": "Tommaso Cassinis"
+        "name": "Tommaso Cassinis"
       }
     ],
     "partners": [{
