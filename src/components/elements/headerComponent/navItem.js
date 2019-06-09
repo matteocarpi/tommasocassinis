@@ -1,9 +1,7 @@
 import React from 'react';
 
 import {
-  BrowserRouter as Router,
-  Link,
-  Route
+  Link
 } from 'react-router-dom';
 
 class NavItem extends React.Component {
