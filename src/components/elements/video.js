@@ -25,7 +25,7 @@ function Video (video) {
 
           {video.crew.map((crew, index) => {
               return (
-                  <p className="crew-role"><strong>{crew.role}</strong>:{crew.name}</p>
+                  <p className="crew-role"><strong>{crew.role}</strong>: {crew.name}</p>
               )
           })}
         </div>
