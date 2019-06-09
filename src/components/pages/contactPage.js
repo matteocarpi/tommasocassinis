@@ -10,7 +10,20 @@ class ContactPage extends React.Component {
         </main>
 
         <div className="side-column" >
+
           <img className="partner-logo" src="/assets/img/partners/Logo-Controluce-Nero.png" alt=""/>
+
+          <h2>ROME / ITALY</h2>
+
+          <a href="mailto:tommsocassinis@gmail.com">tommasocassinis@gmail.com</a>
+
+          <div className="social">
+            <a href="https://www.instagram.com/tommaso_cassinis/"><i className=" first fab fa-instagram"></i></a>
+            <a href="https://vimeo.com/tommasocassinis"><i className="fab fa-vimeo-v"></i></a>
+            <a href="https://www.facebook.com/sommato.sinissac"><i className="fab fa-facebook-f"></i></a>
+            {/* <a href=""><i class="fab fa-twitter"></i></a> */}
+          </div>
+
         </div>
       </div>
     )

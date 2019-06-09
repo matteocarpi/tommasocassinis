@@ -17,6 +17,7 @@ function App() {
         <Header />
 
         <Route exact path="/video" component={VideoPage} />
+        <Route exact path="/" component={VideoPage} />
         <Route exact path="/contact" component={ContactPage} />
 
         {Videos.map((video, index) => {
