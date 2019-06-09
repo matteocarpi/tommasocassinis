@@ -1,0 +1,11 @@
+main.tommy {
+  background-image: url('/assets/img/tommy.jpg');
+  background-size: cover;
+  max-width: 1300px;
+  width: 80%;
+  padding-top: calc(80%*(9/16));
+}
+
+div.contact-page {
+  display: flex;
+}
