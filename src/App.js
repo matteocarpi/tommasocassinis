@@ -4,6 +4,8 @@ import "./assets/styles/universal.scss";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import Videos from "./data/video.json";
+
+import VideoPage from "./components/pages/videoPage";
 import Video from "./components/elements/video";
 import Header from "./components/elements/headerComponent/header";
 
@@ -13,10 +15,7 @@ function App() {
       <div className="App">
         <Header />
 
-        {/* {Videos.map((video, index) => {
-            return <Video title={video.title} />
-          }
-        )} */}
+        <Route exact path="/video" component={VideoPage} />
 
         {Videos.map((video, index) => {
           let permalink =
