@@ -11,10 +11,19 @@ class VideoPage extends React.Component {
     return (
       <div className="video-list">
         {Videos.map((video, index) => {
+          const thumb = video.thumb;
+          const thumbStyle = {
+            color: "blue",
+            backgroundImage: "url(" + thumb + ")"
+          };
           let permalink =
             "/video/" + video.title.replace(/\s+/g, "-").toLowerCase();
           return (
-                <img className="video-thumb" src={video.thumb} alt="" />
+            <Link className="video-thumb-wrap" to={permalink}>
+              <div className="video-thumb" style={thumbStyle}>
+                <img className="thumb-graphic" src={video.graphic} alt=""/>
+              </div>
+            </Link>
           );
         })}
       </div>
