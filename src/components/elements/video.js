@@ -34,7 +34,7 @@ function Video (video) {
 
             {video.partners.map((partner, index) => {
                 return (
-                    <img src={partner.logo} alt=""/>
+                    <img className="partner-logo" src={partner.logo} alt=""/>
                 )
             })}
           </div>
