@@ -17,7 +17,7 @@ class Header extends React.Component {
 
         <ul>
 
-          <li><Link to="/"><h1>Tommaso Cassinis</h1></Link></li>
+          <li className="first"><Link to="/"><h1>Tommaso Cassinis</h1></Link></li>
 
 
 

@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Videos from "./data/video.json";
 
 import VideoPage from "./components/pages/videoPage";
+import ContactPage from "./components/pages/contactPage";
 import Video from "./components/elements/video";
 import Header from "./components/elements/headerComponent/header";
 
@@ -16,6 +17,7 @@ function App() {
         <Header />
 
         <Route exact path="/video" component={VideoPage} />
+        <Route exact path="/contact" component={ContactPage} />
 
         {Videos.map((video, index) => {
           let permalink =
