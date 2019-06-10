@@ -32,11 +32,11 @@
 
 .thumb-graphic {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 2%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) !important;
   max-width: 300px;
+  max-height: 150px;
   display: none;
   transition: 0.3s;
 }
