@@ -24,7 +24,7 @@ function Video(video) {
         </div>
 
         <div className="video-description">
-          <p>{video.description}</p>
+          <p key={video.title + 'description'}>{video.description}</p>
         </div>
 
         <div className="crew">
@@ -32,7 +32,7 @@ function Video(video) {
 
           {video.crew.map((crew, index) => {
             return (
-              <p className="crew-role">
+              <p key={video.title + crew.name + crew.role} className="crew-role">
                 <strong>{crew.role}</strong>: {crew.name}
               </p>
             );
@@ -41,7 +41,7 @@ function Video(video) {
 
         <div className="partners">
           {video.partners.map((partner, index) => {
-            return <a href={partner.link} rel="noopener noreferrer" target="_blank" ><img className="partner-logo" src={partner.logo} alt="" /></a>;
+            return <a key={video.title + partner.link} href={partner.link} rel="noopener noreferrer" target="_blank" ><img className="partner-logo" src={partner.logo} alt="" /></a>;
           })}
         </div>
         <Link to="/video"> Back to all videos </Link>

@@ -19,7 +19,7 @@ class VideoPage extends React.Component {
           let permalink =
             "/video/" + video.title.replace(/\s+/g, "-").toLowerCase();
           return (
-            <div className="video-thumb-wrap">
+            <div key={video.title + 'thumb-wrap'} className="video-thumb-wrap">
               <Link to={permalink}>
                 <div className="video-thumb" style={thumbStyle}>
                   <img className="thumb-graphic" src={video.graphic} alt=""/>
