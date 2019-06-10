@@ -1,9 +1,9 @@
 [{
     "title": "Taxi Waves / Tim Vision",
     "id": "Waves",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/TaxiWaves.png",
     "thumb": "/assets/img/thumbs/TaxiWaves.jpg",
-    "link": "186230300",
+    "link": "337466269",
     "copyright": "2018 Controluce",
     "description": "Taxi Waves è una miniserie che esplora le scene musicali dell’Africa contemporanea seguendo il più iconico tra i mezzi di trasporto pubblici: il taxi. I tre episodi percorrono le strade dell’Africa urbana, raccontando l’ideazione e la maturazione di generi musicali ormai celebri nelle charts globali come l’Afrobeats, l’Afrohouse, l’EDM Africana e la Pandza. Concentrandosi su Lagos, Addis Abeba e Maputo la serie cattura l’essenza di tre culture musicali africane, distanti dalle tendenze occidentali ma allo stesso modo fortemente connesse ad esse.",
     "crew": [{
@@ -58,7 +58,7 @@
   {
     "title": "Showreel",
     "id": "Showreel",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/Showreel.png",
     "thumb": "/assets/img/thumbs/Showreel2019.jpg",
     "link": "329768065",
     "copyright": "2019 TOMMASO CASSINIS",
@@ -86,7 +86,7 @@
   {
     "title": "Griffit Vigo / DJ",
     "id": "",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/GriffitVigo.png",
     "thumb": "/assets/img/thumbs/GriffitVigo.jpg",
     "link": "290862529",
     "copyright": "2018 / Gqom Oh! the sound of durban",
@@ -146,7 +146,7 @@
   {
     "title": "Woza Taxi",
     "id": "Woza",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/WozaTaxi.png",
     "thumb": "/assets/img/thumbs/WozaTaxi.jpg",
     "link": "186230300",
     "copyright": "2016 CRUDO VOLTA",
@@ -198,7 +198,7 @@
   {
     "title": "LAHNP / SYMO",
     "id": "Lahnp",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/LANHP.png",
     "thumb": "/assets/img/thumbs/LANHP.jpg",
     "link": "210253499",
     "copyright": "2017 Crudo Volta",
@@ -242,7 +242,7 @@
   {
     "title": "PETIT TAXI",
     "id": "Petit",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/PetitTaxi.png",
     "thumb": "/assets/img/thumbs/PetitTaxi.jpg",
     "link": "163181373",
     "copyright": "2015 Crudo Volta",
@@ -270,7 +270,7 @@
   {
     "title": "YENKI TAXI",
     "id": "Yenki",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/YenkyiTaxi.png",
     "thumb": "/assets/img/thumbs/YenkyiTaxi.jpg",
     "link": "262195814",
     "copyright": "2016 Crudo Volta",
@@ -347,7 +347,7 @@
   {
     "title": "INAGIBILE / BOB CORN",
     "id": "Inagibile",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/Inagibile.png",
     "thumb": "/assets/img/thumbs/Inagibile.jpg",
     "link": "182541454",
     "copyright": "2015 T. Cassinis - G. Comito",
@@ -396,7 +396,7 @@
   {
     "title": "MALUMZ / C2C",
     "id": "Malmuz",
-    "graphic":"",
+    "graphic":"/assets/img/graphics/Malumz.png",
     "thumb": "/assets/img/thumbs/Malumz.jpg",
     "link": "215392512",
     "copyright": "2017 Crudo Volta",
