@@ -1,8 +1,7 @@
 import React from "react";
 
-import ReactPlayer from "react-player";
-
 import "../../assets/styles/video.scss";
+
 function Video(video) {
   const link = "https://player.vimeo.com/video/" + video.link
   return (
@@ -14,7 +13,7 @@ function Video(video) {
           width= '100%'
           height='100%'
         /> */}
-        <iframe className="video-player" src={link} frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen="true">
+        <iframe title={video.title.replace(/\s+/g, "-").toLowerCase()}className="video-player" src={link} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen={true}>
         </iframe>
       </div>
       <div className="video-info">
@@ -39,7 +38,7 @@ function Video(video) {
           })}
         </div>
 
-        <div classNames="partners">
+        <div className="partners">
           {video.partners.map((partner, index) => {
             return <img className="partner-logo" src={partner.logo} alt="" />;
           })}

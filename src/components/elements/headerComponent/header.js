@@ -15,14 +15,14 @@ class Header extends React.Component {
 
       <header>
 
-        <ul>
+        <ul key="ul">
 
-          <li className="first"><Link to="/"><h1>Tommaso Cassinis</h1></Link></li>
+          <li className="first"><Link to="/" key="homePage"><h1>Tommaso Cassinis</h1></Link></li>
 
 
 
           {NavigationList.map((navItem, index) => {
-            return <NavItem navItem={navItem} />
+            return <NavItem key={navItem} navItem={navItem} />
           })}
 
         </ul>

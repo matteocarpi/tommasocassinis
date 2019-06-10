@@ -1,16 +1,24 @@
 @import './variables.scss';
 @import './elements.scss';
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .App {
-  width: 70%;
-  margin: 0 auto;
+  width: 98%;
+  max-width: 1440px;
 }
 .partner-logo {
   max-width: 200px;
 }
-main {
 
-}
 .page-wrap {
   display: flex;
   justify-content: space-between;
+}
+
+.copyright {
+  text-transform: uppercase;
 }
