@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tommasocassinis/static/css/main.7ffec42e.chunk.css",
+    "main.js": "/tommasocassinis/static/js/main.2cb515d0.chunk.js",
+    "main.js.map": "/tommasocassinis/static/js/main.2cb515d0.chunk.js.map",
+    "runtime~main.js": "/tommasocassinis/static/js/runtime~main.2124000d.js",
+    "runtime~main.js.map": "/tommasocassinis/static/js/runtime~main.2124000d.js.map",
+    "static/js/2.43209e3a.chunk.js": "/tommasocassinis/static/js/2.43209e3a.chunk.js",
+    "static/js/2.43209e3a.chunk.js.map": "/tommasocassinis/static/js/2.43209e3a.chunk.js.map",
+    "index.html": "/tommasocassinis/index.html",
+    "precache-manifest.357a31e1a3b06c6d47889e9d1ccd3a55.js": "/tommasocassinis/precache-manifest.357a31e1a3b06c6d47889e9d1ccd3a55.js",
+    "service-worker.js": "/tommasocassinis/service-worker.js",
+    "static/css/main.7ffec42e.chunk.css.map": "/tommasocassinis/static/css/main.7ffec42e.chunk.css.map",
+    "static/media/header.scss": "/tommasocassinis/static/media/LeagueSpartan-Bold.a6509aa3.otf"
+  }
+}
