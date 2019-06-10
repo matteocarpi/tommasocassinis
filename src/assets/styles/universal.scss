@@ -22,3 +22,14 @@
 .copyright {
   text-transform: uppercase;
 }
+
+.side-column {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page.page-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}

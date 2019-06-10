@@ -32,3 +32,13 @@ header {
     }
   }
 }
+a.nav-item {
+  transition: 0.3s;
+  color: #555454;
+}
+.nav-link:hover {
+  border-bottom: solid 2px;
+}
+.active {
+  border-bottom: solid 2px;
+}

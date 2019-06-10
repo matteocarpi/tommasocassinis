@@ -17,12 +17,12 @@ class Header extends React.Component {
 
         <ul key="ul">
 
-          <li className="first"><Link to="/" key="homePage"><h1>Tommaso Cassinis</h1></Link></li>
+          <li className="first"><h1>Tommaso Cassinis</h1></li>
 
 
 
           {NavigationList.map((navItem, index) => {
-            return <NavItem key={navItem} navItem={navItem} />
+            return <NavItem key={navItem.name} navItem={navItem} />
           })}
 
         </ul>

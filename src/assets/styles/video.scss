@@ -3,15 +3,17 @@
   display: flex;
 }
 .video-list {
+  z-index: -1;
   margin-top: -3%;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .video-thumb-wrap {
   width: 30%;
+  min-width: 300px;
 }
 
 .video-thumb {

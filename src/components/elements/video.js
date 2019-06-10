@@ -1,5 +1,6 @@
 import React from "react";
 
+import {Link} from "react-router-dom";
 import "../../assets/styles/video.scss";
 
 function Video(video) {
@@ -44,7 +45,9 @@ function Video(video) {
           })}
         </div>
       </div>
+      <Link to="/video"> Back to all videos </Link>
     </div>
+
   );
 }
 

@@ -16,7 +16,6 @@ function App() {
       <div className="App">
         <Header />
 
-        <Route exact path="/video" component={VideoPage} />
         <Route exact path="/" component={VideoPage} />
         <Route exact path="/contact" component={ContactPage} />
 
@@ -24,7 +23,7 @@ function App() {
           let permalink =
             "/video/" + video.title.replace(/\s+/g, "-").toLowerCase();
           return (
-            <Route
+            <Route key={video.title}
               exact
               path={permalink}
               render={() => (
