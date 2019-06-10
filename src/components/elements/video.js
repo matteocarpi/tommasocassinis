@@ -41,7 +41,7 @@ function Video(video) {
 
         <div className="partners">
           {video.partners.map((partner, index) => {
-            return <img className="partner-logo" src={partner.logo} alt="" />;
+            return <a href={partner.link} target="_blank" ><img className="partner-logo" src={partner.logo} alt="" /></a>;
           })}
         </div>
         <Link to="/video"> Back to all videos </Link>
