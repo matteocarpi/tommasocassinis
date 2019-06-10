@@ -28,7 +28,7 @@ function Video(video) {
         </div>
 
         <div className="crew">
-          <h3>CREW</h3>
+          <h4>CREW</h4>
 
           {video.crew.map((crew, index) => {
             return (
