@@ -12,7 +12,7 @@ import Header from "./components/elements/headerComponent/header";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tommasocassinis">
       <div className="App">
         <Header />
 
