@@ -44,8 +44,9 @@ function Video(video) {
             return <img className="partner-logo" src={partner.logo} alt="" />;
           })}
         </div>
+        <Link to="/video"> Back to all videos </Link>
       </div>
-      <Link to="/video"> Back to all videos </Link>
+
     </div>
 
   );
