@@ -69,6 +69,10 @@
   align-items: flex-start;
 }
 
+a.back-to-video {
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .video-page {
     flex-direction: column;
