@@ -18,9 +18,9 @@ class ContactPage extends React.Component {
           <a href="mailto:tommsocassinis@gmail.com">tommasocassinis@gmail.com</a>
 
           <div className="social">
-            <a target="_blank" href="https://www.instagram.com/tommaso_cassinis/"><i className=" first fab fa-instagram"></i></a>
-            <a target="_blank" href="https://vimeo.com/tommasocassinis"><i className="fab fa-vimeo-v"></i></a>
-            <a target="_blank" href="https://www.facebook.com/sommato.sinissac"><i className="fab fa-facebook-f"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tommaso_cassinis/"><i className=" first fab fa-instagram"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://vimeo.com/tommasocassinis"><i className="fab fa-vimeo-v"></i></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sommato.sinissac"><i className="fab fa-facebook-f"></i></a>
             {/* <a href=""><i class="fab fa-twitter"></i></a> */}
           </div>
 

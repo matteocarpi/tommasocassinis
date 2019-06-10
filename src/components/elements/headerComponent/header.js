@@ -5,10 +5,6 @@ import NavigationList from '../../../data/navigation.json';
 
 import NavItem from './navItem';
 
-import {
-  Link,
-} from 'react-router-dom';
-
 class Header extends React.Component {
   render() {
     return (
