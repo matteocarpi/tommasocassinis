@@ -21,30 +21,31 @@
 }
 
 .video-thumb {
-  position: relative;
-  flex: 1;
-  margin-top: 15%;
-  width: 100%;
-  padding-top: calc(100%*(1/2.2));
-  background-size: cover;
-  background-position: center;
+    margin-top: 15%;
+    padding-top: calc(100%*(1/2.2));
+    background-size: cover;
+    background-position: center;
+    height: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 .thumb-graphic {
-  position: absolute;
-  top: 2%;
-  left: 50%;
-  transform: translateX(-50%) !important;
-  max-width: 300px;
-  max-height: 150px;
-  display: none;
-  transition: 0.3s;
+    max-width: 300px;
+    max-height: 150px;
+    display: none;
+    margin: 0 auto 40% auto;
+    transition: 0.3s;
 }
 
 .video-thumb:hover {
   .thumb-graphic {
     display: block;
   }
+
+  background-blend-mode: darken;
+  opacity: 0.9;
 }
 
 .video-wrap {
