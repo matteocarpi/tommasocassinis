@@ -41,6 +41,8 @@ function App() {
             />
           );
         })}
+
+        <footer> Copyright©2019 Tommaso Cassinis</footer>
       </div>
     </Router>
   );
