@@ -13,7 +13,7 @@ class Header extends React.Component {
 
         <ul key="ul">
 
-          <li className="first"><h1>Tommaso Cassinis</h1></li>
+          <li className="first"><h1>Tommaso Carpinis</h1></li>
 
 
 
