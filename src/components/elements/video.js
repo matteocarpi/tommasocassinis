@@ -4,16 +4,24 @@ import {Link} from "react-router-dom";
 import "../../assets/styles/video.scss";
 
 function Video(video) {
-  const link = "https://player.vimeo.com/video/" + video.link
+  const link = "https://player.vimeo.com/video/" + video.link + "?color=558693&title=0&byline=0&portrait=0"
+  const frameStyle = {
+      position: 'absolute',
+      top: '0',
+      left: '0',
+      width: '100%',
+      height: '100%'
+  }
+  const divStyle = {
+      padding: '56.25% 0 0 0',
+      position: 'relative'
+  }
   return (
     <div className="video-page">
       <div className="video-wrap">
-        {/* <ReactPlayer
-          className="embedded-video"
-          url={video.link}
-          width= '100%'
-          height='100%'
-        /> */}
+
+        <div style={divStyle}><iframe src={link} style={frameStyle} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
         <iframe title={video.title.replace(/\s+/g, "-").toLowerCase()}className="video-player" src={link} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen={true}>
         </iframe>
       </div>
