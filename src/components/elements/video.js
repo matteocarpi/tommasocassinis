@@ -52,7 +52,6 @@ function Video(video) {
             return <a key={video.title + partner.link} href={partner.link} rel="noopener noreferrer" target="_blank" ><img className="partner-logo" src={partner.logo} alt="" /></a>;
           })}
         </div>
-        <Link className="back-to-video" to="/"> Back to all videos </Link>
       </div>
 
     </div>
