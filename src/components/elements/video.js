@@ -20,7 +20,7 @@ function Video(video) {
     <div className="video-page">
       <div className="video-wrap">
 
-        <div style={divStyle}><iframe src={link} style={frameStyle} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        <div style={divStyle}><iframe title={video.title} src={link} style={frameStyle} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
         <iframe title={video.title.replace(/\s+/g, "-").toLowerCase()}className="video-player" src={link} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen={true}>
         </iframe>
