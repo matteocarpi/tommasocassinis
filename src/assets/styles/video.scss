@@ -99,6 +99,21 @@ a.back-to-video {
     margin-top: 2rem;
     width: 90%;
   }
+  .partners {
+    .partner-logo {
+      max-width: 100px;
+    }
+  }
+
+  .video-thumb {
+    .thumb-graphic {
+      display: block;
+    }
+
+    background-blend-mode: darken;
+    opacity: 0.9;
+  }
+
 }
 .crew {
   margin: 30px 0;
