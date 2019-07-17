@@ -118,3 +118,13 @@ a.back-to-video {
 .crew {
   margin: 30px 0;
 }
+
+@media screen and (max-width: 940px) {
+  .video-list {
+    justify-content: center;
+  }
+
+  .video-thumb-wrap {
+    padding: 0 1rem;
+  }
+}
