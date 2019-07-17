@@ -36,6 +36,7 @@ function Video(video) {
           {video.crew.map((crew, index) => {
             return (
               <p key={video.title + crew.name + crew.role} className="crew-role">
+                
                 <strong>{crew.role}</strong>: {crew.name}
               </p>
             );
